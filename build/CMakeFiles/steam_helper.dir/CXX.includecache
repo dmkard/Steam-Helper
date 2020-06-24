@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/compare.h
+string
+-
+map
+-
+vector
+-
+
+../include/steam.h
+map
+-
+string
+-
+
+/home/kard/code/cpp/steam/src/main.cpp
+iostream
+-
+string
+-
+steam.h
+/home/kard/code/cpp/steam/src/steam.h
+compare.h
+/home/kard/code/cpp/steam/src/compare.h
+

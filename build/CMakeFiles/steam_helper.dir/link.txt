@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread   CMakeFiles/steam_helper.dir/src/compare.cpp.o CMakeFiles/steam_helper.dir/src/main.cpp.o CMakeFiles/steam_helper.dir/src/steam.cpp.o  -o steam_helper  -ljsoncpp -lcurl 

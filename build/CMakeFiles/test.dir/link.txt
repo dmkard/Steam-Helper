@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test.dir/src/main.cpp.o CMakeFiles/test.dir/src/steam.cpp.o  -o test  -ljsoncpp -lcurl 
