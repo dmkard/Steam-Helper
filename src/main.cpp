@@ -8,17 +8,21 @@ int main()
     {
  
         std::string action;
-        std::cout << "Allowed actions: \n"
-                <<"\tcreate - ito read prices from steam and write it into file (30 minutes)\n"
-                <<"\tcompare - to compate prices from two files, names of which will be asked later\n"
-                <<"\texit - to exit the program\n"
+        std::cout << "\033[32m\n\t\t\t\t    STEAM HELPER\033[0m\n\n";
+        std::cout << "################################################################################\n";
+        std::cout << "Allowed commands: \n"
+                <<"    get       - get a list of currently most popular on Steam Market CS:GO items\n"
+                <<"    inventory - show CS:GO inventory price\n"
+                <<"    compare   - compate prices of items from two files\n"
+                <<"    exit      - exit the program\n"
                 <<"Enter action: "; 
         std::cin >> action;
         
-        if(action == "create")
+        if(action == "get")
         {
-            Steam steam;
-            steam.Create();
+            steam::get();
+            //TODO: various games to choose
+
         }
         else if(action == "compare")
         {

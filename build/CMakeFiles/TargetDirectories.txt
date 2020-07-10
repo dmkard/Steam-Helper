@@ -1,3 +1,3 @@
-/home/kard/code/cpp/steam/build/CMakeFiles/rebuild_cache.dir
-/home/kard/code/cpp/steam/build/CMakeFiles/steam_helper.dir
-/home/kard/code/cpp/steam/build/CMakeFiles/edit_cache.dir
+/home/kard/code/cpp/Steam-Helper/build/CMakeFiles/rebuild_cache.dir
+/home/kard/code/cpp/Steam-Helper/build/CMakeFiles/edit_cache.dir
+/home/kard/code/cpp/Steam-Helper/build/CMakeFiles/steam_helper.dir

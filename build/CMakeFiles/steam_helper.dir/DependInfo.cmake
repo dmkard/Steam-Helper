@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kard/code/cpp/steam/src/compare.cpp" "/home/kard/code/cpp/steam/build/CMakeFiles/steam_helper.dir/src/compare.cpp.o"
-  "/home/kard/code/cpp/steam/src/main.cpp" "/home/kard/code/cpp/steam/build/CMakeFiles/steam_helper.dir/src/main.cpp.o"
-  "/home/kard/code/cpp/steam/src/steam.cpp" "/home/kard/code/cpp/steam/build/CMakeFiles/steam_helper.dir/src/steam.cpp.o"
+  "/home/kard/code/cpp/Steam-Helper/src/compare.cpp" "/home/kard/code/cpp/Steam-Helper/build/CMakeFiles/steam_helper.dir/src/compare.cpp.o"
+  "/home/kard/code/cpp/Steam-Helper/src/main.cpp" "/home/kard/code/cpp/Steam-Helper/build/CMakeFiles/steam_helper.dir/src/main.cpp.o"
+  "/home/kard/code/cpp/Steam-Helper/src/steam.cpp" "/home/kard/code/cpp/Steam-Helper/build/CMakeFiles/steam_helper.dir/src/steam.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

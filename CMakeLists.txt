@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.11.3)
 
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -pthread")
 project(steam_helper)
 
 find_package(PkgConfig REQUIRED)

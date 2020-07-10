@@ -1,3 +1,4 @@
+#include "inventory.h"
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -7,9 +8,9 @@
 #include <utility>
 #include <vector>
 #include <ctime>
+
 #include <curl/curl.h>
 #include <jsoncpp/json/json.h>
-#include "steam.h"
 
 static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *userp)
 {
@@ -17,12 +18,16 @@ static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *use
     return size * nmemb;
 }
 
-
-void steam::get()
+/*This function make requests to steam server in order to get
+json file with items which steam user have. It can steam items 
+or items from any other game. After successful of this funtion 
+.txt file with list of items will be created in folder /out
+*/
+void inventory::get()
 {
-    std::vector<std::pair<std::string, float>> data;
+    std::vector<std::pair<std::string, float>> data; // string is a name of item, float is a price 
 
-    for(int j = 0; j < 2500; j+=100)
+    for(int j = 0; j < 1000; j+=100)
     {
         CURL *curl;
         CURLcode res;

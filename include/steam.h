@@ -1,11 +1,7 @@
 #pragma once
-#include <map>
-#include <string>
 
-class Steam
+namespace steam
 {
-public:
-    void Create();
-private:
-    void State(double per);
+    void get();
+    void State(double);
 };
